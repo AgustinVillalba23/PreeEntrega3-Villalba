@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon">
+  <!--     Letras -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Links de bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Barrio-Seguro/Inicio</title>
+  <!--     Link a css -->
+  <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+    <!-- Nadbar-Links -->
+    <header>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="inicio">
+            <img src="/img/logo.png" alt="Logo de empresa" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/pages/proyecto.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/pages/registrar.html">Registrar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/pages/mecanismo.html">¿Como Funciona?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/pages/termino-condiciones.html">Termino y Condiciones</a>
+                </li>
+                <div class="img-nav container">
+                  <img src="/img/icono.png" alt="logo">
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- img-encabezado -->
+    <section> 
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active d-item">
+            <!--  COMPRIMIR --><img src="/img/inicio.jpg" class="d-block w-100 d-img" alt="Imagen de Buenos Aires">
+            <div class="carousel-caption d-none d-md-block"> <!-- ARREGLAR ESTO CON MEDIACUARIES -->
+              <h5>Tu seguridad, nuestra prioridad.</h5>
+              <p>Confía en <span class="dos">Barrio</span> <span class="dos">Seguro</span>.</p>
+            </div>
+            
+          </div>
+
+          <div class="carousel-item d-item">
+            <img src="/img/imagen2.jpg" class="d-block w-100 d-img" alt="Imagen de Buenos Aires">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Un barrio seguro es responsabilidad de todos.</h5>
+              <p>por eso no seas una víctima. <span class="dos">Barrio</span> <span class="dos">Seguro</span> te brinda la prevención necesaria para evitar robos.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item d-item">
+            <img src="/img/imagen3.jpg" class="d-block w-100 d-img" alt="Imagen de Buenos Aires">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> Informacion al instante.</h5>
+              <p>Actualización en tiempo real para una comunidad <span class="dos">Segura</span>.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- divisor-web -->
+    <div class="divisor container-fluid bg-dark">
+      <div class="row">
+        <h2 class="text-center text-uppercase py-4">¿Quienes Somos?</h2>
+      </div>
+    </div>
+    <!-- proyecto -->
+    <main id="nosotros">
+      <div class="container">
+        <div class="row">
+          <span class="border border-5 rounded">
+
+            <div class="parrafo-main col-12">
+              <p>Como jóvenes argentinos, sabemos lo difícil que es vivir en un país donde la seguridad es un tema recurrente y la impunidad de los afecta nos delitos directamente. Estamos cansados ​​de ver cómo roban en nuestras calles y de sentirnos inseguros en nuestro propio barrio. Por eso, hemos decidido proponer un proyecto que apunte a mejorar la seguridad ciudadana y aportar una solución más a este problema que tanto nos afecta. Nuestra idea es crear una aplicación que permita a la gente identificar a los ladrones, compartir información de manera rapida y colaborar con las autoridades para capturar a los delincuentes. Queremos que esta iniciativa se viralice en todo el país para que más personas se unan a nuestra causa y juntos, logremos tener una Argentina más segura. ¡Es hora de tomar acción!
+              </p>
+            </div>
+
+            <div class="col-12">
+              <img class="logo-main" src="/img/logo.png" alt="Logo de la empresa">
+            </div>
+
+          </span>
+        </div>
+      </div>
+    </main>
+    <!-- divisor-web -->
+    <div class="divisor container-fluid bg-dark">
+      <div class="row">
+        <h2 class="text-center text-uppercase py-2 my-5">¿Como Funciona?</h2>
+      </div>
+    </div>
+    <!-- cards-resumen -->
+    <article id="explicacion">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+          <div class="col">
+            <div class="card">
+              <img src="/img/reportar.png" class="card-img-top" alt="Asistente en linea">
+              <div class="card-body">
+                <h5 class="card-title">Reporta al instante</h5>
+                <p class="card-text ">Con nuestra aplicación, puedes reportar cualquier actividad sospechosa al instante. La app te permite grabar y enviar la ubicación en tiempo real, para que puedas recibir ayuda lo más rápido posible.</p>
+                <button class="btn btn-primary ">Saber más</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/barrio-seguro.png" class="card-img-top" alt="Casas con seguridad">
+              <div class="card-body">
+                <h5 class="card-title">Mantén tu barrio seguro</h5>
+                <p class="card-text">Con nuestra aplicación, puedes unirte a otros vecinos y mantener tu barrio seguro. Recibe alertas de actividades sospechosas y reporta lo que veas para prevenir delitos. Juntos, podemos hacer la diferencia en nuestra comunidad.</p>
+                <button  class="btn btn-primary ">Saber más</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/conectado.png" class="card-img-top" alt="Conectado">
+              <div class="card-body">
+                <h5 class="card-title">Siempre conectado</h5>
+                <p class="card-text">Con nuestra aplicación, puedes mantenerte siempre conectado con tu comunidad y las autoridades locales. Comparte fotos y videos de actividades sospechosas, y recibe actualizaciones en tiempo real para estar al tanto de lo que sucede en tu barrio. Juntos podemos trabajar por un barrio más seguro.</p>
+                <button class="btn btn-primary px-3 py-1 fs-5 mt-5 mb-5 ">Saber más <a href="http://"></a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- footer -->
+    <footer class="text-center py-4 bg-dark ">
+      &copy;BS -Todos los derechos son reservados
+    </footer>
+
+    <!-- Links de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>

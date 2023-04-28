@@ -1,0 +1,22 @@
+.offcanvas-body{
+    display: flex;
+    text-align: center;
+    ul{
+        display: grid;
+        align-items: center;
+        align-content: space-between;
+        margin-right: 20%;     
+        li{
+            border-radius: 60px;
+            background-color: #144c84;
+            a{
+                font-weight: $grosor-s;
+            }
+        }
+        img{
+            margin-top: 150px;
+            height: 100px;
+            width: 100px;
+        }
+    }
+}

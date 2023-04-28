@@ -1,0 +1,32 @@
+.d-item {
+  height: 700px;
+}
+
+.d-img {
+  height: 700px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.5);
+}
+
+#nosotros {
+  height: 100vh;
+  text-align: justify;
+  line-height: 2em;
+  background-color: #efefef;
+}
+
+.logo-main {
+  background-color: #212529;
+}
+
+h2 {
+  color: white;
+}
+
+#explicacion {
+  height: 90vh;
+  line-height: 2em;
+  background-color: #efefef;
+}/*# sourceMappingURL=index.css.map */
